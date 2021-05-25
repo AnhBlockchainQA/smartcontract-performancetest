@@ -1,0 +1,47 @@
+{
+  "name": "zed-api-automationtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=dev jest --reporters default jest-stare --detectOpenHandles --runInBand --testTimeout=60000 --forceExit",
+    "test:watch": "jest --verbose --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letuananhit1405/zed-api-automationtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/letuananhit1405/zed-api-automationtest/issues"
+  },
+  "homepage": "https://github.com/letuananhit1405/zed-api-automationtest#readme",
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "axios": "^0.21.1",
+    "csvtojson": "^2.0.10",
+    "custom-env": "^2.0.1",
+    "dotenv": "^8.2.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjs-util": "^7.0.9",
+    "install": "^0.13.0",
+    "jest": "^26.6.3",
+    "jest-allure": "^0.1.3",
+    "keccak256": "^1.0.2",
+    "magic-sdk": "^4.2.1",
+    "npm": "^7.6.3",
+    "superagent": "^6.1.0",
+    "superagent-defaults": "^0.1.14",
+    "superagent-use": "^0.1.0",
+    "supertest": "^6.1.3",
+    "web3": "^1.2.9",
+    "web3-eth": "^1.3.4",
+    "web3-eth-accounts": "^1.3.4",
+    "web3-eth-contract": "^1.3.6",
+    "web3-eth-personal": "^1.3.4",
+    "web3-provider-engine": "^16.0.1",
+    "web3-utils": "^1.3.6",
+    "winston": "^3.3.3"
+  }
+}
